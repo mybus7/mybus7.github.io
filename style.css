@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Viga);
+
+* {
+  margin:0;
+}
+
+#container {
+  background: #E0E0E0;
+  width:380px;
+  height: 800px;
+  border-radius: 10%;
+  text-align: center;
+  margin: 10px auto;
+  color: #112;
+  font-family: 'Viga', sans-serif;
+  overflow: hidden;
+}
+
+#buttons a{
+  display: inline-block;
+  width: 40%;
+  padding: 18px 5%;
+  text-decoration: none;
+  color: inherit;
+}
+
+#buttons a{
+  background: none;
+}
+
+#buttons a.active{
+  background: #709CCB;
+}
+
+#container h2{
+  margin: 0 auto;
+  font-size: 3em;
+}
+
+#container #info{
+  height: 200px;
+  width: 200px;
+  background: #f2716a;
+  border-radius: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#time{
+  padding-top: 18px;
+  display: block;
+  font-size: 5em;
+}
+
+#note{
+  padding-right:20%;
+  float: right;
+}
+
+
+
+html, body{
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: #cfd8dc; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #cfd8dc 0%, #2e6b9a 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#cfd8dc), color-stop(100%,#2e6b9a));
+background: -webkit-radial-gradient(center, ellipse cover, #cfd8dc 0%,#2e6b9a 100%);
+background: -o-radial-gradient(center, ellipse cover, #cfd8dc 0%,#2e6b9a 100%);
+background: -ms-radial-gradient(center, ellipse cover, #cfd8dc 0%,#2e6b9a 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfd8dc', endColorstr='#2e6b9a',GradientType=1 );
+  background: radial-gradient(ellipse at 50% 300px, #cfd8dc 0%,#2e6b9a 99%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin:0;
+}
